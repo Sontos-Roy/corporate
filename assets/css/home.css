@@ -13,3 +13,13 @@
     padding: 10px 50px;
     border-radius: 5px;
 }
+.feature-cat .category{
+    padding: 5px;
+}
+.feature-cat .category img{
+    max-width: 75px;
+}
+.service-support-box .service-support-single img{
+    width: 60px;
+    margin-right: 20px;
+}
