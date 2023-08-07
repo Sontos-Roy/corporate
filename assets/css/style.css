@@ -20,6 +20,7 @@
     --secondary: #ff497c;
     --muted: #ededef;
     --yellow: #ffd08a;
+    --orange: #ff9900;
 
     /* fonts  */
     --mont-black: mont-black;
@@ -46,6 +47,19 @@
         --font-14: 12px;
         --font-13: 11px;
         --font-12: 10px;
+    }
+}
+@media (max-width: 575px) {
+    :root{
+        --font-20: 17px;
+        --font-19: 16px;
+        --font-18: 15px;
+        --font-17: 14px;
+        --font-16: 13px;
+        --font-15: 12px;
+        --font-14: 11px;
+        --font-13: 10px;
+        --font-12: 9px;
     }
 }
 *{
@@ -151,6 +165,9 @@ a{
 .bg-muted{
     background: var(--muted);
 }
+.bg-orange{
+    background: var(--orange) !important;
+}
 .text-cap{
     text-transform: uppercase;
 }
@@ -168,6 +185,9 @@ a{
 }
 .flex-wrap{
     flex-wrap: wrap;
+}
+.bg-gradient{
+    background: linear-gradient(to right, #727374, #a9c4fa) !important;
 }
 
 /* global css  */

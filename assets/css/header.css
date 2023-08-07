@@ -50,3 +50,68 @@ header img {
 .middlenav .navbar-nav li:hover a{
     color: #ca212a;
 }
+
+
+/* footer  */
+
+footer {
+    background-color: #010138;
+    color: #fff;
+    padding: 15px 0px;
+}
+footer .footer {
+    background-color: #120d5a;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.footer i {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.footer p {
+    font-size: 16px;
+}
+.footer span {
+    font-size: 20px;
+    font-weight: 600;
+    line-break: loose;
+}
+.social-link i.fa-facebook-f {
+    padding-right: 30px;
+    color: #3b5998;
+}
+.social-link i.fa-facebook-messenger {
+    padding-right: 30px;
+    color: #006aff;
+}
+.social-link i.fa-youtube {
+    padding-right: 30px;
+    color: #CD201F;
+}
+.social-link i.fa-instagram {
+    padding-right: 30px;
+    color: #fccc63;
+}
+.social-link i.fa-twitter {
+    padding-right: 30px;
+    color: #00acee;
+}
+.social-link i.fa-linkedin-in {
+    padding-right: 30px;
+    color: #0072b1;
+}
+.social-link i.fa-whatsapp {
+    padding-right: 30px;
+    color: #00ff55;
+}
+.footer .payment-partner a img {
+    width: 44px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.footer .partner a img {
+    height: 50px;
+    width: 90px;
+}
