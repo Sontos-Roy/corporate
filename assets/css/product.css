@@ -1,5 +1,5 @@
 .product-box{
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 .product-box .product-item{
     transition: 0.3s;
@@ -12,7 +12,7 @@
 .product-box .product-item .product_thumb a img{
     max-width: 100%;
 } 
-.product-box .product-item .product_thumb .primary_img{
+/* .product-box .product-item .product_thumb .primary_img{
     visibility: visible;
     opacity: 1;
     transition: all 0.3s ease;
@@ -61,22 +61,34 @@
     -o-transform: scale3d(1, 1, 1);
     -ms-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
-}
+} */
 .product-box .product-item .product_thumb .primary_img img{
     display: block;
     opacity: 1;
+    visibility: visible;
+    pointer-events: none;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
 }
 .product-box .product-item .product_thumb .secondary_img img{
     display: none;
     opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
 }
 .product-box .product-item .product_thumb:hover .primary_img img{
     display: none;
     opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
 }
 .product-box .product-item .product_thumb:hover .secondary_img img{
     display: block;
     opacity: 1;
+    visibility: visible;
+    pointer-events: none;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
 }
 .product-box .product-item .label_product {
     position: absolute;

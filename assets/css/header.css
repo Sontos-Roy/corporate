@@ -106,7 +106,7 @@ footer .footer {
     color: #00ff55;
 }
 .footer .payment-partner a img {
-    width: 44px;
+    width: 100%;
     height: 25px;
     border-radius: 5px;
     background-color: #fff;
