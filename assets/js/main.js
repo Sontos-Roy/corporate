@@ -122,7 +122,7 @@ function AllSliders(){
     dots: true,
     centerMode: true,
     focusOnSelect: true,
-    centerPadding: 10
+    margin: 20
   });
 
 
@@ -194,6 +194,7 @@ function toggle(){
     $('.sidebar-filter').removeClass('open');
     $('.overlay-sidebar').hide();
   })
+
 }
 $(document).ready(function(){
   AllSliders();
