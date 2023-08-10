@@ -171,6 +171,12 @@ a{
 .text-cap{
     text-transform: uppercase;
 }
+.bg-blue{
+    background: #010138;
+}
+.bg-blue:hover{
+    background: #01018b;
+}
 .btn-hover{
     transition: 0.4s cubic-bezier(0.23, 1, 0.320, 1);
 }
