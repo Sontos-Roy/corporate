@@ -199,7 +199,7 @@ a{
 /* global css  */
 button:focus-visible, input:focus-visible{
     outline: none !important;
-    border: none !important;
+    /* border: none !important; */
 }
 /* global css  */
 
