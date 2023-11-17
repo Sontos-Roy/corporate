@@ -4,8 +4,8 @@ function AllSliders(){
     dots: false,
     arrows: true,
     infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToShow: 6,
+    slidesToScroll: 6,
     margin: '10px',
     responsive: [
       {
@@ -62,8 +62,8 @@ function AllSliders(){
     dots: false,
     arrows: true,
     infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToShow: 6,
+    slidesToScroll: 6,
     margin: '10px',
     responsive: [
       {
@@ -193,6 +193,9 @@ function toggle(){
   $('.overlay-sidebar').click(function(){
     $('.sidebar-filter').removeClass('open');
     $('.overlay-sidebar').hide();
+  })
+  $('.searchBarToggler').click(function(){
+    $('.searchBar').slideToggle(500);
   })
 
 }

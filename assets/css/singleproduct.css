@@ -15,28 +15,34 @@
 .badge-box .badge{
     padding: 3px;
 }
-.payment-options{
+.whatsapp_gradient{
+    background: linear-gradient(45deg, green, rgb(1, 82, 1));
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+.color_box{
     display: flex;
-    justify-content: start;
+    align-items: center;
     flex-wrap: wrap;
 }
-.payment-options .option-box{
+.color_box span{
+    padding-right: 30px;
+}
+.color_box .colors{
     display: flex;
-    margin: 10px;
     align-items: center;
-    border: #010138 2px solid;
 }
-.payment-options .option-box .left-box{
-    height: auto;
-    padding: 10px;
-}
-.payment-options .option-box .left-box input{
-    height: 90px;
+.color_box .colors .color{
+    height: 30px;
     width: 30px;
-}
-.payment-options .option-box .right-box{
-    height: auto;
     padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+    outline: 1px solid rgba(128, 128, 128, 0.473);
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.568);
+    cursor: pointer;
 }
 .qty-btn-box{
     display: flex;

@@ -14,20 +14,23 @@
 .sidebar-filter .accordion-box{
     width: 100%;
     transition: none;
-    margin-top: 10px;
+    margin-bottom: 10px;
+	background: #f6f6f6;
+	border-radius: 10px;
 }
 .sidebar-filter .accordion-box .accordion-title{
     width: 100%;
-    background-color: rgb(219, 252, 241);
     padding: 10px;
     cursor: pointer;
     transition: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .sidebar-filter .accordion-box .accordion-title .circle{
     padding: 5px;
     border-radius: 50px;
     text-align: center;
-    border: 3px dashed rgb(4, 255, 222);
     margin-right: 10px;
 }
 .sidebar-filter .accordion-box .accordion-title .circle i{
@@ -76,7 +79,7 @@
 .range-slider span input[type=number] {
     border: 1px solid #ddd;
 	text-align: center;
-	font-size: 1.6em;
+	font-size: 20px;
 	-moz-appearance: textfield;
     margin-top: 50px;
 }
@@ -194,7 +197,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
+    background: #f6f6f6;
     padding: 10px 0;
 }
 .product-box > div{

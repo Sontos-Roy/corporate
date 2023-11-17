@@ -17,20 +17,25 @@
 <body>
     <!-- header Start  -->
     <header>
-        <nav class="navbar ">
-            <div class="container-fluid row justify-content-between align-items-center">
-                <div class="col-lg-2 col-md-3 col-6 ">
-                    <a href="" class="navbar-brand">
-                        <img src="assets/image/logo.png" alt="logo">
-                    </a>
-                </div>
-                <div class="col-6 d-block d-lg-none d-md-none text-end">
-                    <button class="navbar-toggler d-lg-none shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#middlenav" aria-controls="middlenav"
+        <nav class="navbar py-3">
+            <div class="col-lg-11 col-12 m-auto row justify-content-between align-items-center">
+                <div class="col-4 d-block d-lg-none d-md-none">
+                    <button class="d-lg-none shadow-none text-light btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#middlenav" aria-controls="middlenav"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa fa-bars"></i>
                 </button>
                 </div>
-                <div class="col-lg-5 col-md-9 col-12">
+                <div class="col-lg-1 col-md-3 col-4 text-lg-start text-center">
+                    <a href="" class="navbar-brand">
+                        <img src="assets/image/logo/logo.webp" alt="logo">
+                    </a>
+                </div>
+                <div class="col-lg-1 col-md-3 col-4 m-auto text-end d-block d-lg-none d-md-none">
+                    <div class="primary searchBarToggler">
+                        <h3 class="fa-solid fa-magnifying-glass m-0 lh-0"></h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-9 col-12 searchBar">
                     <div class="search-container search_four">
                         <form action="#">
                             <div class="search_box m-auto">
@@ -40,24 +45,91 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-5 d-none d-lg-block">
-                    <div class="navbar navbar-expand-lg justify-content-between">
-                        <a class="btn rounded-0 btn-light bg-white m-2 p-2" href="#"><i class="fa-solid fa-phone pe-0"></i>Hot Line: <small>+48659585</small></a>
-                        <a class="btn rounded-0 btn-light bg-white m-2 p-2" href="#">Account</a>
-                        <a class="btn rounded-0 btn-light bg-white m-2 p-2" href="#">Offer</a>
-                        <a class="btn rounded-0 btn-light bg-white m-2 p-2" href="#">Contact</a>
-                        <a class="btn rounded-0 btn-light bg-white m-2 p-2" href="#">Menu</a>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="navbar navbar-expand-lg justify-content-between p-0">
+                        <div class="col-lg-3">
+                            <a class="" href="#">
+                                <div class="d-flex align-items-center">
+                                    <div class="col-54 primary text-end">
+                                        <h3 class="fa fa-gift m-0"></h3>
+                                    </div>
+                                    <div class="col-8 text-light ps-3">
+                                        <div class="bold font-14">Offers</div>
+                                        <div class="font-13">Latest Offers</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="" href="#">
+                                <div class="d-flex align-items-center">
+                                    <div class="col-54 primary text-end">
+                                        <h3 class="fa fa-gift m-0"></h3>
+                                    </div>
+                                    <div class="col-8 text-light ps-3">
+                                        <div class="bold font-14">Offers</div>
+                                        <div class="font-13">Latest Offers</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="" href="#">
+                                <div class="d-flex align-items-center">
+                                    <div class="col-54 primary text-end">
+                                        <h3 class="fa fa-gift m-0"></h3>
+                                    </div>
+                                    <div class="col-8 text-light ps-3">
+                                        <div class="bold font-14">Offers</div>
+                                        <div class="font-13">Latest Offers</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="" href="#">
+                                <div class="d-flex align-items-center">
+                                    <div class="col-54 primary text-end">
+                                        <h3 class="fa fa-gift m-0"></h3>
+                                    </div>
+                                    <div class="col-8 text-light ps-3">
+                                        <div class="bold font-14">Offers</div>
+                                        <div class="font-13">Latest Offers</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
           </nav>
-          <nav class="navbar navbar-expand-lg navbar-light bg-white bg-light p-0 py-lg-3">
+          <nav class="navbar navbar-expand-lg navbar-light bg-white bg-light p-0 py-lg-3 middlenavb">
               <div class="container-fluid">
                 <div class="collapse navbar-collapse middlenav" id="middlenav">
                     <ul class="navbar-nav m-auto mt-2 mt-lg-0 justify-content-between w-100 flex-wrap">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Desktop</a>
-                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                              <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                              <li class="dropend">
+                                <a class="dropdown-toggle dropdown-item text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li class="">
+                                    <a class="dropdown-item" href="#">
+                                      Dropdown
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">laptop</a>
                         </li>
@@ -100,15 +172,30 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Gadget</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Gaming</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                              <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                              <li class="dropend">
+                                <a class="dropdown-toggle dropdown-item text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li class="">
+                                    <a class="dropdown-item" href="#">
+                                      Dropdown
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">TV</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">AC</a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -117,40 +204,39 @@
     </header>
     <div class="main-wrapper">
         <div class="overlay-sidebar"></div>
-        <div class="product-page bg-light col-lg-12 col-12 p-0 m-auto mt-2 mb-2">
-            <div class="container-fluid p-3 pb-2">
+        <div class="product-page col-lg-11 p-0 m-auto mt-2 mb-2">
+            <div class="d-lg-flex justify-content-between align-items-center p-3 pb-2">
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#"><i class="fas fa-house-chimney"></i></a></li>
-                        <li class="breadcrumb-item"><a href="#">Sub</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Active</li>
+                    <ol class="breadcrumb align-items-center">
+                        <li class="breadcrumb-item"><a href="#" class="text-dark font-12"><i class="fas fa-house-chimney"></i></a></li>
+                        <li class="breadcrumb-item"><a href="#" class="text-dark font-12">Sub</a></li>
+                        <li class="breadcrumb-item active font-12">Active</li>
                     </ol>
                 </nav>
-            </div>
-            <div class="p-3 pt-0">
-                <div class="bg-white p-3 rounded-5 ">
-                    <div class="row justify-content-between">
-                        <div class="share col-lg-6 col-6 d-flex align-items-center">
-                            <span class="bold">Share: </span>
-                            <a href="#" class="text-dark p-1"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="text-dark p-1"><i class="fab fa-pinterest"></i></a>
-                        </div>
-                        <div class="btns col-6 col-lg-6 text-lg-end">
-                            <button class="btn bold text-start">
-                                <i class="far fa-bookmark"></i>
-                                Save
-                            </button>
-                            <button class="btn bold text-start">
-                                <i class="far fa-square-plus"></i>
-                                Add To Compare
-                            </button>
-                        </div>
+                <div class="d-flex">
+                    <div class="share d-flex align-items-center">
+                        <span class="bold font-12">Share: </span>
+                        <a href="#" class="text-dark p-1 font-12"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-dark p-1 font-12"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                    <div class="btns">
+                        <button class="btn bold text-start font-12">
+                            <i class="far fa-bookmark"></i>
+                            Save
+                        </button>
+                        <button class="btn bold text-start font-12">
+                            <i class="far fa-square-plus"></i>
+                            Add To Compare
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="row p-lg-3">
                 <div class="col-lg-5 col-md-6 col-12">
-                    <div class="bg-white p-2">
+                    <div class="bg-white p-2 position-relative">
+                        <div class="label_product text-end">
+                            <span class="label_sale primary-bg text-light rounded-2 p-1">40% Off</span>
+                        </div>
                         <div class="product-slider-main">
                             <div class="">
                                 <img src="assets/image/product1.jpg" alt="" class="img-fluid">
@@ -181,88 +267,77 @@
                             <h4 class="product-title ps-2">New Polo Shirt</h4>
                             <div class="badge-box">
                                 <div class="badge">
-                                    <button class="btn btn-sm btn-light bg-muted semi rounded-5" >
-                                            Price: $200
+                                    <button class="btn btn-sm btn-light bg-muted  rounded-3" >
+                                            Price: <span class="semi">$200</span>
                                     </button>
                                 </div>
                                 <div class="badge">
-                                    <button class="btn btn-sm btn-light bg-muted semi rounded-5" >
-                                            Regular Price: $200
+                                    <button class="btn btn-sm btn-light bg-muted  rounded-3" >
+                                            Regular Price: <span class="semi">$200</span>
                                     </button>
                                 </div>
                                 <div class="badge">
-                                    <button class="btn btn-sm btn-light bg-muted semi rounded-5" >
-                                            Status: In Stock
-                                    </button>
-                                </div>
-                                <div class="badge">
-                                    <button class="btn btn-sm btn-light bg-muted semi rounded-5" >
-                                            Product Code: #23523
-                                    </button>
-                                </div>
-                                <div class="badge">
-                                    <button class="btn btn-sm btn-light bg-muted semi rounded-5" >
-                                            Brand: HP
+                                    <button class="btn btn-sm btn-light bg-muted  rounded-3" >
+                                            Status: <span class="semi">In Stock</span>
                                     </button>
                                 </div>
                             </div>
-                            <h5 class="semi mt-3">Key Features</h5>
-                            <div class="regular">
-                                <p class="m-0">
-                                    Model: #EW-5655
-                                </p>
-                                <p class="m-0">
-                                    Model: #EW-5655
-                                </p>
-                                <p class="m-0">
-                                    Model: #EW-5655
-                                </p>
-                                <p class="m-0">
-                                    Model: #EW-5655
-                                </p>
-                                <p class="m-0">
-                                    Model: #EW-5655
-                                </p>
-                                <p class="m-0">
-                                    Model: #EW-5655
-                                </p>
-                            </div>
-                            <div class="coupon-tag mt-3">
-                                <h1 class="text-light mb-0"><i class="fas fa-tag"></i></h1>
-                                <div>
-                                    <div class="semi text-light">90TK. Discount</div>
-                                    <div class="text-light">On Online Order</div>
+                            <div class="badge-box">
+                                <div class="badge">
+                                    <button class="btn btn-sm btn-light bg-muted  rounded-3" >
+                                            Price: <span class="semi">$200</span>
+                                    </button>
+                                </div>
+                                <div class="badge">
+                                    <button class="btn btn-sm btn-light bg-muted  rounded-3" >
+                                            Regular Price: <span class="semi">$200</span>
+                                    </button>
+                                </div>
+                                <div class="badge">
+                                    <button class="btn btn-sm btn-light bg-muted  rounded-3" >
+                                            Status: <span class="semi">In Stock</span>
+                                    </button>
                                 </div>
                             </div>
+                            <div class="whatsapp_gradient mt-3">
+                                <a href="" class="text-light">
+                                    <div class="d-flex align-items-center">
+                                        <div class="logo px-2"><h3 class="m-0 fab fa-whatsapp"></h3></div>
+                                        <div class="content"><div class="font-13">Message</div><div class="font-12">On Whatsapp</div></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="color_box my-4 my-lg-4">
+                                <span>Color : </span>
+                                <div class="colors">
+                                    <div class="color" style="background: blue;"></div>
+                                    <div class="color" style="background: green;"></div>
+                                    <div class="color" style="background: yellow;"></div>
+                                    <div class="color" style="background: red;"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center wrap">
+                                <span>Sim : </span>
+                                <button class="btn btn-sm primary-bg btn-outline-danger text-light ms-5">Dual</button>
+                            </div>
+                            <div class="d-flex align-items-center wrap mt-lg-4 mt-4">
+                                <span>Storage : </span>
+                                <button class="btn btn-sm btn-light ms-5">8/128GB</button>
+                                <button class="btn btn-sm primary-bg btn-outline-danger text-light ms-2">8/128GB</button>
+                            </div>
+                           
                             <div class="payment-options">
-                                <div class="option-box">
-                                    <div class="left-box bg-muted">
-                                        <input type="radio" class="form-radio">
-                                    </div>
-                                    <div class="right-box">
-                                        <h5 class="semi">16,000 tk</h5>
-                                        <h5 class="medium font-16">90tk Discount On online order</h5>
-                                        <h5 class="medium font-16">Online / Cash Payment</h5>
-                                    </div>
-                                </div>
-                                <div class="option-box">
-                                    <div class="left-box bg-muted">
-                                        <input type="radio" class="form-radio">
-                                    </div>
-                                    <div class="right-box">
-                                        <h5 class="semi">16,000 tk</h5>
-                                        <h5 class="medium font-16">90tk Discount On online order</h5>
-                                        <h5 class="medium font-16">Online / Cash Payment</h5>
-                                    </div>
-                                </div>
                                 <div class="qty-btn-box mt-3">
                                     <div class="qty-box mb-2">
-                                        <button class="btn btn-light border rounded-0 bold font-20 border-muted">-</button>
-                                        <input type="number" min="0" class="form-control font-20 rounded-0 shadow-none qty">
-                                        <button class="btn btn-light border rounded-0 bold font-20 border-muted">+</button>
+                                        <button class="btn btn-light border rounded-0 bold font-16 border-muted">-</button>
+                                        <input type="number" min="0" class="form-control font-16 rounded-0 shadow-none qty">
+                                        <button class="btn btn-light border rounded-0 bold font-16 border-muted">+</button>
                                     </div>
                                     <div class="text-center ms-lg-3 mb-2">
-                                        <button class="btn btn-primary bold font-20 px-5">Buy Now</button>
+                                        <button class="btn bold font-16 px-5 text-light" style="background-color: #f1550c; border:2px solid #f1550c;">Buy Now</button>
+                                    </div>
+                                    <div class="text-center ms-lg-3 mb-2">
+                                        <button class="btn bold font-16 px-5" style="border:2px solid #f1550c;">Add To Cart</button>
                                     </div>
                                 </div>
                             </div>
@@ -270,9 +345,218 @@
                     </div>
                 </div>
             </div>
-            <div class="row p-lg-3">
-                <div class="col-lg-9 col-md-8 col-12">
-                    <div class="container">
+            <div class="col-lg-11 m-auto mt-lg-5 mt-4">
+                <div class="col-12 product-header pt-1">
+                    <div class="section_title text-center">
+                        <h4 class="semi p-1 m-0">Related Products</h4>
+                    </div>
+                </div>
+                
+            </div>
+            <div class=" m-auto mt-lg-5 mt-4">
+                
+                <div class="product-box mt-4">
+                    <div class="product_slider">
+                        <div class="product-item">
+                            <div class="product_thumb">
+                                <a class="primary_img" href="#"><img src="assets/image/product1.jpg" alt=""></a>
+                                <div class="label_product">
+                                    <span class="label_sale">40% Off</span>
+                                </div>
+                                <div class="action_links">
+                                    <ul>
+                                        <li class="wishlist"><a href="#" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                                        <li class="compare"><a href="#" title="compare"><i class="fa-solid fa-repeat"></i></a></li>
+                                        <li class="quick_button"><a href="#" data-bs-toggle="modal" data-bs-target="#modal_box" title="quick view"> <i class="fa-regular fa-eye"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product_content ">
+                                <h4 class="ps-1">
+                                    <a href="#" class="font-14 regular">New Balance Fresh Foam LAZR v1 Sport</a>
+                                </h4>
+                                <div class="price_box ps-1 pt-3">
+                                    <span class="current_price">$10.95</span>
+                                    <span class="old_price">$18.90</span>
+                                </div>
+                                <div class="rounded-0 d-flex justify-content-between">
+                                    <button class="btn btn-sm semi text-light primary-bg btn-outline-danger regular">
+                                        Buy Now
+                                    </button>
+                                    <button class="btn btn-sm border border-warning border-2 semi text-muted btn-outline-warning regular">
+                                        Add To Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product_thumb">
+                                <a class="primary_img" href="#"><img src="assets/image/product1.jpg" alt=""></a>
+                                <div class="label_product">
+                                    <span class="label_sale">40% Off</span>
+                                </div>
+                                <div class="action_links">
+                                    <ul>
+                                        <li class="wishlist"><a href="#" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                                        <li class="compare"><a href="#" title="compare"><i class="fa-solid fa-repeat"></i></a></li>
+                                        <li class="quick_button"><a href="#" data-bs-toggle="modal" data-bs-target="#modal_box" title="quick view"> <i class="fa-regular fa-eye"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product_content ">
+                                <h4 class="ps-1">
+                                    <a href="#" class="font-14 regular">New Balance Fresh Foam LAZR v1 Sport</a>
+                                </h4>
+                                <div class="price_box ps-1 pt-3">
+                                    <span class="current_price">$10.95</span>
+                                    <span class="old_price">$18.90</span>
+                                </div>
+                                <div class="rounded-0 d-flex justify-content-between">
+                                    <button class="btn btn-sm semi text-light primary-bg btn-outline-danger regular">
+                                        Buy Now
+                                    </button>
+                                    <button class="btn btn-sm border border-warning border-2 semi text-muted btn-outline-warning regular">
+                                        Add To Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product_thumb">
+                                <a class="primary_img" href="#"><img src="assets/image/product1.jpg" alt=""></a>
+                                <div class="label_product">
+                                    <span class="label_sale">40% Off</span>
+                                </div>
+                                <div class="action_links">
+                                    <ul>
+                                        <li class="wishlist"><a href="#" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                                        <li class="compare"><a href="#" title="compare"><i class="fa-solid fa-repeat"></i></a></li>
+                                        <li class="quick_button"><a href="#" data-bs-toggle="modal" data-bs-target="#modal_box" title="quick view"> <i class="fa-regular fa-eye"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product_content ">
+                                <h4 class="ps-1">
+                                    <a href="#" class="font-14 regular">New Balance Fresh Foam LAZR v1 Sport</a>
+                                </h4>
+                                <div class="price_box ps-1 pt-3">
+                                    <span class="current_price">$10.95</span>
+                                    <span class="old_price">$18.90</span>
+                                </div>
+                                <div class="rounded-0 d-flex justify-content-between">
+                                    <button class="btn btn-sm semi text-light primary-bg btn-outline-danger regular">
+                                        Buy Now
+                                    </button>
+                                    <button class="btn btn-sm border border-warning border-2 semi text-muted btn-outline-warning regular">
+                                        Add To Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product_thumb">
+                                <a class="primary_img" href="#"><img src="assets/image/product1.jpg" alt=""></a>
+                                <div class="label_product">
+                                    <span class="label_sale">40% Off</span>
+                                </div>
+                                <div class="action_links">
+                                    <ul>
+                                        <li class="wishlist"><a href="#" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                                        <li class="compare"><a href="#" title="compare"><i class="fa-solid fa-repeat"></i></a></li>
+                                        <li class="quick_button"><a href="#" data-bs-toggle="modal" data-bs-target="#modal_box" title="quick view"> <i class="fa-regular fa-eye"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product_content ">
+                                <h4 class="ps-1">
+                                    <a href="#" class="font-14 regular">New Balance Fresh Foam LAZR v1 Sport</a>
+                                </h4>
+                                <div class="price_box ps-1 pt-3">
+                                    <span class="current_price">$10.95</span>
+                                    <span class="old_price">$18.90</span>
+                                </div>
+                                <div class="rounded-0 d-flex justify-content-between">
+                                    <button class="btn btn-sm semi text-light primary-bg btn-outline-danger regular">
+                                        Buy Now
+                                    </button>
+                                    <button class="btn btn-sm border border-warning border-2 semi text-muted btn-outline-warning regular">
+                                        Add To Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product_thumb">
+                                <a class="primary_img" href="#"><img src="assets/image/product1.jpg" alt=""></a>
+                                <div class="label_product">
+                                    <span class="label_sale">40% Off</span>
+                                </div>
+                                <div class="action_links">
+                                    <ul>
+                                        <li class="wishlist"><a href="#" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                                        <li class="compare"><a href="#" title="compare"><i class="fa-solid fa-repeat"></i></a></li>
+                                        <li class="quick_button"><a href="#" data-bs-toggle="modal" data-bs-target="#modal_box" title="quick view"> <i class="fa-regular fa-eye"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product_content ">
+                                <h4 class="ps-1">
+                                    <a href="#" class="font-14 regular">New Balance Fresh Foam LAZR v1 Sport</a>
+                                </h4>
+                                <div class="price_box ps-1 pt-3">
+                                    <span class="current_price">$10.95</span>
+                                    <span class="old_price">$18.90</span>
+                                </div>
+                                <div class="rounded-0 d-flex justify-content-between">
+                                    <button class="btn btn-sm semi text-light primary-bg btn-outline-danger regular">
+                                        Buy Now
+                                    </button>
+                                    <button class="btn btn-sm border border-warning border-2 semi text-muted btn-outline-warning regular">
+                                        Add To Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product_thumb">
+                                <a class="primary_img" href="#"><img src="assets/image/product1.jpg" alt=""></a>
+                                <div class="label_product">
+                                    <span class="label_sale">40% Off</span>
+                                </div>
+                                <div class="action_links">
+                                    <ul>
+                                        <li class="wishlist"><a href="#" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                                        <li class="compare"><a href="#" title="compare"><i class="fa-solid fa-repeat"></i></a></li>
+                                        <li class="quick_button"><a href="#" data-bs-toggle="modal" data-bs-target="#modal_box" title="quick view"> <i class="fa-regular fa-eye"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product_content ">
+                                <h4 class="ps-1">
+                                    <a href="#" class="font-14 regular">New Balance Fresh Foam LAZR v1 Sport</a>
+                                </h4>
+                                <div class="price_box ps-1 pt-3">
+                                    <span class="current_price">$10.95</span>
+                                    <span class="old_price">$18.90</span>
+                                </div>
+                                <div class="rounded-0 d-flex justify-content-between">
+                                    <button class="btn btn-sm semi text-light primary-bg btn-outline-danger regular">
+                                        Buy Now
+                                    </button>
+                                    <button class="btn btn-sm border border-warning border-2 semi text-muted btn-outline-warning regular">
+                                        Add To Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-12">
+                    <div class="">
                         <ul class="nav" id="myTabs">
                           <li class="">
                             <a class="btn btn-light bg-white bold active" id="tab1-tab" data-bs-toggle="tab" href="#tab1">Specification</a>
@@ -345,34 +629,59 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-12">
+                <div class="col-lg-4 col-md-4 col-12">
                     <div class="bg-white p-3 related">
-                        <h4 class="bold text-center">Relate Products</h4>
+                        <h4 class="bold text-center primary">Recently Viewed</h4>
                         <hr>
                         <div class="product">
-                            <img src="assets/image/computer.png" alt="" width="80">
+                            <img src="assets/image/computer.png" alt="" width="60">
                             <div class="content">
-                                <p class="bold font-15">Compute PC With 4 GB Ram and 3 GB Graphice Card</p>
-                                <span class="text-danger bold">19000tk</span>
+                                <p class="bold font-14 m-0">
+                                    Galaxy A24</p>
+                                <span class="primary font-13 bold">19000tk</span>
+                                <div class="col-12">
+                                    <button class="btn border-none btn-sm text-light primary-bg btn-outline-danger bold font-15"><span class="ms-0"> Buy Now</span></button>
                                 <button class="btn border-none text-muted bold font-15"><i class="far fa-square-plus"></i><span class="ms-0"> Add To Compare</span></button>
+                                </div>
                             </div>
                         </div>
                         <hr class="border border-muted">
                         <div class="product">
-                            <img src="assets/image/computer.png" alt="" width="80">
+                            <img src="assets/image/computer.png" alt="" width="60">
                             <div class="content">
-                                <p class="bold font-15">Compute PC With 4 GB Ram and 3 GB Graphice Card</p>
-                                <span class="text-danger bold">19000tk</span>
+                                <p class="bold font-14 m-0">
+                                    Galaxy A24</p>
+                                <span class="primary font-13 bold">19000tk</span>
+                                <div class="col-12">
+                                    <button class="btn border-none btn-sm text-light primary-bg btn-outline-danger bold font-15"><span class="ms-0"> Buy Now</span></button>
                                 <button class="btn border-none text-muted bold font-15"><i class="far fa-square-plus"></i><span class="ms-0"> Add To Compare</span></button>
+                                </div>
                             </div>
                         </div>
                         <hr class="border border-muted">
                         <div class="product">
-                            <img src="assets/image/computer.png" alt="" width="80">
+                            <img src="assets/image/computer.png" alt="" width="60">
                             <div class="content">
-                                <p class="bold font-15">Compute PC With 4 GB Ram and 3 GB Graphice Card</p>
-                                <span class="text-danger bold">19000tk</span>
+                                <p class="bold font-14 m-0">
+                                    Galaxy A24</p>
+                                <span class="primary font-13 bold">19000tk</span>
+                                <div class="col-12">
+                                    <button class="btn border-none btn-sm text-light primary-bg btn-outline-danger bold font-15"><span class="ms-0"> Buy Now</span></button>
                                 <button class="btn border-none text-muted bold font-15"><i class="far fa-square-plus"></i><span class="ms-0"> Add To Compare</span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="border border-muted">
+                        <div class="product">
+                            <img src="assets/image/computer.png" alt="" width="60">
+                            <div class="content">
+                                <p class="bold font-14 m-0">
+                                    Galaxy A24</p>
+                                <span class="primary font-13 bold">19000tk</span>
+                                <div class="col-12">
+                                    <button class="btn border-none btn-sm text-light primary-bg btn-outline-danger bold font-15"><span class="ms-0"> Buy Now</span></button>
+                                <button class="btn border-none text-muted bold font-15"><i class="far fa-square-plus"></i><span class="ms-0"> Add To Compare</span></button>
+                                </div>
                             </div>
                         </div>
                         <hr class="border border-muted">
@@ -383,118 +692,108 @@
         
     </div>
     <footer class="">
-        <div class="container-fluid">
+        <div class="col-lg-11 m-auto">
             <div class="row">
                 <div class="col-lg-3 col-md-6 footer">
-                    <div class="d-flex footer-content ">
-                    <i class="fa-solid fa-clock-rotate-left"></i>
-                    <p><span>Branch Time Schedule</span> <br>we are open 10:00 am-08:00pm</p>
-                    </div>
-                    <div class="d-flex footer-content">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p><span>Address &amp; Directions</span> <br>Tech Land has 4 outlets &amp; service centers</p>
+                    <div class="text-orange text-cap font-18">Support</div>
+                    <div class="footer_num_box mt-3 mb-3">
+                        <div class="num_box d-flex align-items-center">
+                            <h5 class="fa mb-0 fa-phone-alt"></h5><h4 class="mb-0 px-2">|</h4>
+                            <h5 class="mb-0">01315421542</h5>
                         </div>
-                        <div class="d-flex footer-content">
-                            <i class="fa-solid fa-medal"></i>
-                            <p><span>We are trusted</span> <br>Verified by BCS,ECS,e-CAB,and others</p>
-                            </div>
-                </div>
-                <div class="col-lg-4 col-md-6 footer">
-                    <h4 class="semi">Important Link</h4>
-                    <p class="font-16">About Us Delivery Payment Terms EMI Information Warranty Terms Privacy Policy Refund &amp; Return Terms &amp; Conditions Manufacturers.</p>
-                    <h5>Follow Us</h5>
+                    </div>
+                    <div class="footer_num_box mt-3 mb-3">
+                        <div class="num_box d-flex align-items-center">
+                            <h5 class="fa mb-0 fa-map-marked"></h5><h4 class="mb-0 px-2">|</h4>
+                            <h5 class="mb-0"><span class="font-12">Store Location: </span> <br> Find Store</h5>
+                        </div>
+                    </div>
                     <div class="d-flex social-link flex-wrap">
                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
                         <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                         <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
+
+                    
                 </div>
-                <div class="col-lg-5 footer footer-left">
-                    <h4>Payment Partner</h4>
-                    <div class="pb-4">
-                        <div class="payment-partner row">
-                            <div class="col-2 col-md-2 mb-2">
-                                <a class="pe-2" href="#">
-                                    <img src="assets/image/logo/visa.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-2 col-md-2 mb-2">
-                                <a class="pe-2" href="#">
-                                    <img class="bg-white" src="assets/image/logo/mastercard.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-2 col-md-2 mb-2">
-                                <a class="pe-2" href="#">
-                                    <img class="bg-white" src="assets/image/logo/dbbl.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-2 col-md-2 mb-2">
-                                <a class="pe-2" href="#">
-                                    <img class="bg-white" src="assets/image/logo/bkash.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-2 col-md-2 mb-2">
-                                <a class="pe-2" href="#">
-                                    <img class="bg-white" src="assets/image/logo/nagad.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-2 col-md-2 mb-2">
-                                <a class="pe-2" href="#">
-                                    <img class="bg-white" src="assets/image/logo/rocket.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-2 col-md-2 mb-2">
-                                <a class="pe-2" href="#">
-                                    <img class="bg-white" src="assets/image/logo/upay.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-2 col-md-2 mb-2">
-                                <a class="pe-2" href="#">
-                                    <img class="bg-white" src="assets/image/logo/trust.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-2 col-md-2 mb-2">
-                                <a class="pe-2" href="#">
-                                    <img class="bg-white" src="assets/image/logo/city.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-2 col-md-2 mb-2">
-                                <a class="pe-2" href="#">
-                                    <img class="bg-white" src="assets/image/logo/southeast.png" alt="">
-                                </a>
-                            </div>
-                            
-                        </div>
-                        
-                    <h5>Delivery Partner</h5>
-                    <div class="partner row">
-                        <div class="col-2 col-md-2 mb-2">
-                            <a class="pe-2" href="#">
-                                <img class="bg-white" src="assets/image/logo/redx.png" alt="">
-                            </a>
-                        </div>
-                        <div class="col-2 col-md-2 mb-2">
-                            <a class="pe-2" href="#">
-                                <img class="bg-white" src="assets/image/logo/ecourier-logo-01.png" alt="">
-                            </a>
-                        </div>
-                        <div class="col-2 col-md-2 mb-2">
-                            <a class="pe-2" href="#">
-                                <img class="bg-white" src="assets/image/logo/Pathao-logo.png" alt="">
-                            </a>
-                        </div>
-                        <div class="col-2 col-md-2 mb-2">
-                            <a class="pe-2" href="#">
-                                <img class="bg-white" src="assets/image/logo/southeast.png" alt="">
-                            </a>
-                        </div>
-                       
+                <div class="col-lg-3 col-md-6 footer">
+                    <div class="text-orange text-cap font-18">Support</div>
+                    <div class="navbar-nav">
+                        <a class="nav-link nav-item" href="#">
+                            About Us
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            About Us
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            About Us
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            About Us
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            About Us
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            About Us
+                        </a>
                     </div>
+                    
                 </div>
+                <div class="col-lg-3 col-md-6 footer">
+                    <div class="text-orange text-cap font-18">Support</div>
+                    <div class="navbar-nav">
+                        <a class="nav-link nav-item" href="#">
+                            About Us
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            About Us
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            About Us
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            About Us
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            About Us
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            About Us
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6 footer">
+                    <div class="text-orange text-cap font-18">Stay Connected</div>
+                    <div class="navbar-nav">
+                        <a class="nav-link nav-item" href="#">
+                            Apple Gadgets Ltd.
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            Shop 2D, 2nd Floor,
+Rupayan Latifa Shamsuddin Square, Mirpur 1  
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            Apple Gadgets Ltd.
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            Shop 2D, 2nd Floor,
+Rupayan Latifa Shamsuddin Square, Mirpur 1  
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            Apple Gadgets Ltd.
+                        </a>
+                        <a class="nav-link nav-item" href="#">
+                            Shop 2D, 2nd Floor,
+Rupayan Latifa Shamsuddin Square, Mirpur 1  
+                        </a>
+                    </div>
+                    
+                </div>
+                
             </div>
         </div>
     </footer>
